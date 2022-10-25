@@ -1,0 +1,109 @@
+#cajasuperior {
+    background-color: midnightblue;
+    height: 50px;
+    padding: 10px;
+
+}
+
+#cabecera {
+    width: auto;
+}
+
+#central {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    font-style: oblique;
+    color: blanchedalmond;
+    text-align: center;
+    display: inline;
+}
+
+#centro {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#cuerpo {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+img {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.green {
+    color: aquamarine;
+}
+
+.capitular::first-letter {
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    float: left;
+}
+
+.letrapeq {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: lighter;
+    line-height: 25px;
+}
+
+.textolargo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    line-height: 40px;
+    text-align: left;
+}
+
+.titulos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: left;
+}
+
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    font-weight: lighter;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: darkgrey;
+    text-align: center;
+    line-height: 20px;
+}

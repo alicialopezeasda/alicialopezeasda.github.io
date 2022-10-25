@@ -1,0 +1,41 @@
+#cajasuperior {
+    background-image: url(img/header.png);
+    background-size: cover;
+    padding: 20px;
+    height: 100px;
+    width: 100%;
+}
+
+#cuerpo {
+    text-align: center;
+}
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 22px;
+    color: aliceblue;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    line-height: 5;
+}
+
+a {
+    color: hotpink;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color:orangered;
+}
+
+.textocontinuo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
