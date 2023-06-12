@@ -1,41 +1,46 @@
+body {
+    background: linear-gradient(blue, whitesmoke);
+    background-attachment: fixed; 
+}
+
 #cajasuperior {
-    background-image: url(img/header.png);
-    background-size: cover;
     padding: 20px;
     height: 100px;
     width: 100%;
 }
 
-#cuerpo {
-    text-align: center;
-}
-
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/poppins/poppins-light.ttf) format(ttf);
+     }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-size: 22px;
     color: aliceblue;
+    font-style: oblique;
 }
 
 ul {
+    text-align: center;
     list-style: none;
 }
 
 li {
-    line-height: 5;
-}
+   line-height: 5;
+ } 
 
 a {
     color: hotpink;
-    text-decoration: none;
+    text-decoration: none
 }
-
 a:hover, a:active {
-    color:orangered;
+    color:plum;
+    text-decoration: none
 }
 
 .textocontinuo {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
