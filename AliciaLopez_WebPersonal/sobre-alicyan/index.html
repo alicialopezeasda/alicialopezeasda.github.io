@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="lightbox2/css/lightbox.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <title>alycian design</title>
+  <link rel="icon" href="img/icono-alicyan.png" type="image/png">
+</head>
+    
+<body>
+  <header class="encabezado">
+    <span><a href="#" onclick="window.history.back(); return false;">Página Principal</a></span>
+  </header>
+    
+  <div id="cuerpo">
+    <p class="textolargo"> ¡Hola! Soy Alicia,<span class="italic"> Alicyan </span>como nombre artístico. Soy estudiante de diseño gráfico en la Escuela de Arte y Superior de Diseño de Alicante, aunque aspiro a ser diseñadora multidisciplinar. El diseño es mi pasión, cualquiera de sus disciplinas me despierta curiosidad. Es por ello, que complemento mi grado en diseño gráfico con asignaturas como diseño de complementos, diseño de calzado, incluso clases de costura.
+    </p>
+    <p class="textolargo">Por mucho tiempo me ha preocupado no encontrar 'lo mío', mi especialidad en la que destacar. Pensaba que eso era algo malo, pero me he dado cuenta que precisamente es mi punto fuerte, mi interés, curiosidad y ganas de aprender sobre distintas disciplinas de cualquier tipo de diseño, pues la combinación de dicha variedad de conocimientos puede llevarme a alcanzar resultados sorprendentes.
+    </p>
+    <p class="textolargo">Si te gusta mi perfil y te gustaría contar conmigo para un proyecto, no dudes en contactar conmigo, a través del IG o el mail que encontrarás en la página principal.
+    </p>
+    
+    <h2 class="carousel-title">conóce un poco más sobre mí :)</h2>
+    <div class="carousel-container">
+        <div class="carousel">
+            <div><img src="img/imagen1.jpg" alt="Imagen 1" class="carousel-img"><p>Bocetos para complementos de moda</p></div>
+            <div><img src="img/imagen2.jpg" alt="Imagen 2" class="carousel-img"><p>Eligiendo colores para una marca</p></div>
+            <div><img src="img/imagen3.jpg" alt="Imagen 3" class="carousel-img"><p>Pasando la tarde en Madness, mientras trabajo en algún proyecto</p></div>
+            <div><img src="img/imagen4.jpg" alt="Imagen 4" class="carousel-img"><p>Fan de pantone y del color azul</p></div>
+            <div><img src="img/imagen5.jpg" alt="Imagen 5" class="carousel-img"><p>Sábado en el taller de costura</p></div>
+            <div><img src="img/imagen6.jpg" alt="Imagen 6" class="carousel-img"><p>Diseñando un marca</p></div>
+            <div><img src="img/imagen7.jpg" alt="Imagen 7" class="carousel-img"><p>Foto de clase :)</p></div>
+            <div><img src="img/imagen8.jpg" alt="Imagen 8" class="carousel-img"><p>Museo de producto en Valencia</p></div>
+            <div><img src="img/imagen9.jpg" alt="Imagen 9" class="carousel-img"><p>Algunos bocetos para un proyecto de publicidad</p></div>
+            <div><img src="img/imagen10.jpg" alt="Imagen 10" class="carousel-img"><p>Taller de calzado, extrayendo patrones de una horma</p></div>
+            <div><img src="img/imagen11.jpg" alt="Imagen 11" class="carousel-img"><p>Mis primeros bocetos de calzado</p></div>
+            <div><img src="img/imagen12.jpg" alt="Imagen 12" class="carousel-img"><p>Pósters</p></div>
+        </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="slick/slick.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.carousel').slick({
+        // Opciones de configuración del carrusel
+        dots: true, // Muestra los puntos de navegación
+        slidesToShow: 3, // Número de imágenes a mostrar en cada diapositiva
+        // Otros ajustes según tus necesidades
+      });
+    });
+  </script>
+</body>
+
+</html>

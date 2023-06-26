@@ -1,0 +1,81 @@
+body {
+    background-color: ghostwhite;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.encabezado {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 30%;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    color: lightblue;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+ a {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    color: lightblue;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: crimson;
+    text-decoration: none;
+}
+
+.galeria-horizontal {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    height: 65%;
+    justify-content: flex-start;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-bottom: 50px;
+}
+.galeria-item {
+    flex: 0 0 auto;
+    width: 40%;
+    margin-right: 10px;
+    text-align: left;
+}
+
+.galeria-img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-weight: 350;
+    font-size: 20px;
+    line-height: 10px;
+    margin-left: 10%;
+}
+
+h3 {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    color:lightgray;
+    font-weight: 300;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 0px;
+    margin-left: 10%;
+}
+
+.azul {
+    color: blue;
+}
+.rosa {
+    color:hotpink;
+}
+.naranja {
+    color:lightsalmon;
+}
+.verde {
+    color:chartreuse;
+}
