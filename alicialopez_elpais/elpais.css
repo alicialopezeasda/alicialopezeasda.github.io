@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  height: 50px;
+  background-color: darkblue;
+}
+
+header ul li{
+  display: inline-block;
+  width: 30%;
+  color: aliceblue;
+}
+
+article {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 63px;
+  font-weight: 300;
+  text-align: center;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: rgb(16, 16, 16);
+  margin-bottom: 100px;
+  text-align: center;
+  line-height: 30px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  font-size: 14px;
+  line-height: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+li{
+  padding-bottom: 40px;
+}
+.PrimeraLetra::first-letter {
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 100px;
+  float: left;
+  padding-right: 10px;
+}
+
+.importante {
+  font-weight: bold;
+  text-decoration: dotted;
+}
+
+img {
+  width: 100%;
+}
