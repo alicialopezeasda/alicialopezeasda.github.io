@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/background.png'); /* Reemplaza 'ruta/a/tu/imagen.jpg' con la URL de tu imagen de fondo */
+    background-size: cover;
+}
+
+header {
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.bloque {
+    background-color: rgb(251, 248, 248);
+    border: 1px linear-gradient(to bottom, #686868, #222);
+    border-radius: 55px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px 0;
+    width: 80%; 
+    max-width: 400px;
+    text-align: center;
+}
+
+h1{
+    color:grey;
+    font-family:monospace;
+    font-size: 5vh;
+    font-weight: 250;
+}
+
+p{
+    color:grey;
+    font-family:monospace;
+    font-size: 3vh;
+    font-weight: 250;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(103, 182, 243);
+    font-family: monospace;
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(103, 182, 243);
+}
+
+a:hover{
+    color:rgb(225, 111, 168);
+}
