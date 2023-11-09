@@ -8,6 +8,7 @@ body {
   margin: auto;
 }
 
+
 .box {
   display: flex;
   flex-flow:row, nowrap ;
@@ -58,6 +59,18 @@ h2 {
 }
 
 p {
+  font-family: monospace;
+  font-size: 0,2vh;
+  color: rgb(11, 11, 11);
+  text-align: left;
+}
+
+a{
+  font-family: monospace;
+  color: blue;
+}
+
+.pie {
   font-family: monospace;
   font-size: 2vh;
   color: blue;
