@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: hotpink;
+    width: 80vw;
+    margin: auto;
+  }
+
+.box {
+    display: flex;
+    flex-flow:row, nowrap ;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 7vh;
+  }
+
+  div{
+    margin: 5vh;
+  }
+  
+  .box div.A {
+    order: 1;
+    align-self: auto;
+    background-color: lightpink;
+    padding: 2vw;
+    width: 20vw;
+    height: 20vw;
+  }
+  
+  .box div.B{
+    order: 2;
+    align-self: auto;
+    background-color: lightpink;
+    padding: 2vw;
+    width: 20vw;
+    height: 20vw;
+  }
+  
+  .box div.C{
+    order: 3;
+    align-self: auto;
+    background-color: lightpink;
+    padding: 2vw;
+    width: 20vw;
+    height: 20vw;
+  }
+
+  p{
+    font-size: 1,5vh;
+    color: black;
+  }
+
+  h1{
+    font-size: 2,5vh;
+    color: white;
+  }
+.orbitron{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.press{
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.bungee{
+    font-family: 'Bungee', sans-serif;
+    line-height: 3vh;
+}
+
+.noto{
+    font-family: 'Noto Serif Display', sans-serif;
+}
+
+.pinyon{
+    font-family: 'Pinyon Script', sans-serif;
+}
+
+.syncopated{
+    font-family: 'Syncopate', sans-serif;
+}
