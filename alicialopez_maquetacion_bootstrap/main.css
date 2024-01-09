@@ -1,0 +1,43 @@
+body {
+  font-family: monospace;
+  text-align: center;
+}
+
+
+.titulo{
+  height:20vh;
+  margin: auto;
+  padding-top: 5vh;
+}
+
+h1{
+  font-family: monospace;
+  font-size: 4vh;
+  color: black;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.col-4{
+  margin-top: 10vh;
+}
+
+button{
+  border: none;
+  background-color: lightskyblue;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5vh;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  color: sandybrown;
+  text-decoration: none;
+}
