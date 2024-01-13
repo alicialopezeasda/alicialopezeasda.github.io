@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* HOME */
+
+#menu {
+    background-color: black;
+    height: 10vh;
+}
+
+#video {
+    background-color: pink;
+    height: 90vh;
+}
+
+#center-list {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 3vh;
+}
+
+#center-item {
+    padding-left: 6px;
+    padding-right: 6px;
+    white-space: nowrap;
+    margin-right: 5vw;
+}
+
+#center-item a {
+    font-family: monospace;
+    font-size: 2.5vh;
+    font-weight: lighter;
+    color: white;
+}
+
+/* PROJECTS */
+
+#header {
+    height: 7vh;
+    padding: 2vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: beige; /* Añadí un fondo negro para el encabezado fijo */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+
+h3 {
+    font-family: monospace;
+    font-size: 2vh;
+    color: black;
+    text-align: left;
+}
+
+#description{
+    background-color: lightblue;
+    height: 100vh;
+}
+
+#gallery{
+    background-color: lavender;
+    height: 100vh;
+}
+
+/* ABOUT ME */
+
+#introduction{
+    height: 43vh;
+    margin-block-start: 7vh;
+}
+
+#me{
+    background-color: pink;
+}
+
+#about-me{
+    background-color: chartreuse;
+    padding: 2vw;
+}
+
+#software{
+    height: 25vh;
+    background-color: blueviolet;
+}
+
+#hobbies{
+    height: 25vh;
+    background-color: blue;
+}
+
+/* ABOUT ME */
+
+#contact-img{
+    height: 93vh;
+    margin-block-start: 7vh;
+    background-color: coral;
+}
+
+#contact-text{
+    height: 93vh;
+    margin-block-start: 7vh;
+    background-color: pink;
+    padding: 5vh;
+}
