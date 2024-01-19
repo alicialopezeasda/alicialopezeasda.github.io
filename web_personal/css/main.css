@@ -3,23 +3,48 @@
     margin: 0;
 }
 
+body{
+    background-color: black;
+}
+
 /* HOME */
+
+h1{
+    font-family: 'afronaut', sans-serif;
+    color: blue;
+    font-size: 3vh;
+
+    margin-block-start: 3vh;
+    padding-left: 8%;
+}
+
+#name{
+    height: 7vh;
+
+}
 
 #menu {
     background-color: black;
-    height: 10vh;
+    height: 7vh;
 }
 
-#video {
-    background-color: pink;
-    height: 90vh;
+#home {
+    height: 93vh;
+    margin: 0%;
+    padding: 0%;
+}
+
+video{
+    width: 100%;
+    height: auto;
+    margin: 0%;
 }
 
 #center-list {
     list-style-type: none;
     display: flex;
     flex-flow: row;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     margin-block-start: 3vh;
 }
@@ -33,9 +58,14 @@
 
 #center-item a {
     font-family: monospace;
-    font-size: 2.5vh;
-    font-weight: lighter;
+    font-size: 2.3vh;
     color: white;
+    text-decoration: none;
+}
+
+#center-item a:hover {
+    color: blue;
+    text-decoration: none;
 }
 
 /* PROJECTS */
@@ -46,76 +76,395 @@
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: beige; /* Añadí un fondo negro para el encabezado fijo */
+    background: black; /* Añadí un fondo negro para el encabezado fijo */
     z-index: 1000; /* Asegura que esté encima de otros elementos */
 }
 
 h3 {
     font-family: monospace;
-    font-size: 2vh;
-    color: black;
+    font-size: 2.5vh;
+    color: blue;
     text-align: left;
+    padding-left: 2vw;
 }
 
+.black{
+    color: white;
+}
+
+h4{
+    font-size: 3vh;
+    font-family: monospace;
+    font-weight: 500;
+    color: lightcyan
+}
+
+.afronaut{
+    font-size: 3vh;
+    font-family: 'Afronaut', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:blue
+}
+
+p{
+    font-size: 2vh;
+    font-family: monospace;
+    font-weight: 300;
+    margin-right: 2vw;
+    color: white;
+}
+
+
 #description{
-    background-color: lightblue;
-    height: 55vh;
+    height: 93vh;
     margin-block-start: 7vh;
 
-    padding: 2vw;
+    padding: 5vw;
     display: flex;
     flex-direction: column-reverse;
     align-items: flex-start; /* Alinea los elementos al principio del contenedor */
 }
 
 #description-text {
-    margin-top: auto; /* Alinea en la parte inferior */
+    margin-top: auto;
 }
 
 
 #gallery{
-    background-color: lavender;
-    height: 55vh;
+    height: 93vh;
     margin-block-start: 7vh;
+    margin-inline: auto;
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+
+#carousel-group1, #carousel-group2, #carousel-group3, #carousel-group4{
+    max-width: 50%;
+    height: auto;
+    margin: auto;
 }
 
 /* ABOUT ME */
 
+#header a{
+    color: white;
+    text-decoration: none;
+}
+
+#header a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
 #introduction{
-    height: 43vh;
+    height: 50vh;
     margin-block-start: 7vh;
 }
 
 #me{
-    background-color: pink;
+    display: flex;
+}
+
+#me img{
+    width: 75%;
+    margin: auto;
 }
 
 #about-me{
-    background-color: chartreuse;
-    padding: 2vw;
+    padding-top: 7vh;
+    padding-right: 12vw;
 }
 
-#software{
-    height: 25vh;
-    background-color: blueviolet;
+#software, #i-love{
+    height: 3vh;
+    padding-left: 8vw;
 }
 
-#hobbies{
-    height: 25vh;
-    background-color: blue;
+#i-love-item, #software-item{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
-/* ABOUT ME */
+#software-item img{
+    width: 30%;
+    height: auto;
+    margin: auto;
+
+    padding-bottom: 2vh;
+}
+
+#i-love-item img{
+    width: 50%;
+    height: auto;
+    margin: auto;
+
+    padding-bottom: 2vh;
+}
+
+#i-love-group, #software-group{
+    height: 30vh;
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h5{
+    font-size: 2.5vh;
+    font-family: 'afronaut', sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+h6{
+    font-size: 2vh;
+    font-family: monospace;
+    font-weight: 500;
+    color: white;
+}
+
+
+/* CONTACT */
 
 #contact-img{
     height: 93vh;
     margin-block-start: 7vh;
-    background-color: coral;
+
+    display: flex;
+    justify-content: center;
+}
+
+#contact-img img{
+    height: 100%;
+    align-self: center;
 }
 
 #contact-text{
     height: 93vh;
     margin-block-start: 7vh;
-    background-color: pink;
-    padding: 5vh;
+    padding-top: 5vh;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    border-radius: 6vh;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh;
+  }
+
+  .button a{
+    color: white;
+  }
+
+  .button a:hover{
+    text-decoration: none;
+    color: black;
+  }
+
+  .bold {
+    font-weight: 400;
+  }
+
+/* RESPONSIVE DESIGN MOBILE FIRST */
+
+@media (max-width: 991px){
+    /* ABOUT*/
+    
+    #introduction{
+        height: 75vh;
+        margin-block-start: 7vh;
+    }
+    
+    #me{
+        display: flex;
+    }
+    
+    #me img{
+        width: 90%;
+        margin: auto;
+    }
+    
+    #about-me{
+        padding-top: 5vw;
+    }
+    
+    #software, #i-love{
+        height: 3vh;
+        padding-left: 8vw;
+    }
+    
+    #i-love-item, #software-item{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    
+    #software-item img{
+        width: 30%;
+        height: auto;
+        margin: auto;
+    
+        padding-bottom: 4vh;
+    }
+    
+    #i-love-item img{
+        width: 50%;
+        height: auto;
+        margin: auto;
+    
+        padding-bottom: 2vh;
+    }
+    
+    #i-love-group, #software-group{
+        height: 130vh;
+    
+    }
+
+    /* CONTACT */
+    
+    #contact-img img{
+        height: 100%;
+        align-self: center;
+    }
+    
+    #contact-text{
+        height: 93vh;
+        margin-block-start: 7vh;
+        padding-inline: 15vw;
+    }
+    #contact-img{
+        height: 70vh;
+        margin-block-start: 7vh;
+    
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+@media (max-width: 767px) {
+
+    /* HOME */
+    h1, #center-list{
+        margin: auto;
+    }
+
+    #name, #menu{
+        display: flex;
+        flex-flow: row;
+    }
+
+    /* PROJECTS*/
+
+    #description{
+        height: 30vh;
+        margin-block-start: 7vh;
+    
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Alinea los elementos al principio del contenedor */
+    }
+
+    #gallery{
+        height: 60vh;
+        margin-inline: auto;
+        margin-block-start: 0;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #carousel-group1, #carousel-group2, #carousel-group3{
+        max-width: 85%;
+        height: auto;
+        margin: auto;
+    }
+    #carousel-group4{
+        max-width: 85%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 20vh;
+    }
+
+    /* ABOUT*/
+    
+    #introduction{
+        height: 160vh;
+        margin-block-start: 7vh;
+    }
+    
+    #me{
+        display: flex;
+    }
+    
+    #me img{
+        width: 90%;
+        margin: auto;
+    }
+    
+    #about-me{
+        padding-top: 5vw;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+
+        padding-inline: 8vw;
+    }
+
+    #about-me p{
+        text-align: left;
+    }
+    
+    #software, #i-love{
+        height: 3vh;
+        padding-left: 8vw;
+    }
+    
+    #i-love-item, #software-item{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    
+    #software-item img{
+        width: 20%;
+        height: auto;
+        margin: auto;
+    
+        padding-bottom: 4vh;
+    }
+    
+    #i-love-item img{
+        width: 40%;
+        height: auto;
+        margin: auto;
+    
+        padding-bottom: 2vh;
+    }
+    
+    #i-love-group, #software-group{
+        height: 200vh;
+    
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    
 }
