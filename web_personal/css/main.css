@@ -247,6 +247,9 @@ h6{
     height: 93vh;
     margin-block-start: 7vh;
     padding-top: 5vh;
+
+    animation-duration: 3s;
+    animation-name: appear;
 }
 
 .button {
@@ -272,6 +275,23 @@ h6{
   .bold {
     font-weight: 400;
   }
+
+  
+  @keyframes appear{
+    from{
+        opacity: 0%;
+    }
+
+    to{
+        opacity: 100;
+    }
+  }
+
+
+
+
+
+
 
 /* RESPONSIVE DESIGN MOBILE FIRST */
 
