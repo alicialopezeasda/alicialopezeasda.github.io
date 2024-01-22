@@ -12,27 +12,33 @@ body {
 header {
   height: 150px;
   background-color: darkblue;
+  display: flex;
+  justify-content: center;
 }
 
-header ul li{
-  display: inline-block;
-  width: 30%;
-  color: aliceblue;
-  box-sizing: border-box;
-  background-color: blue;
+#center-list {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: right;
+  align-items: center;
+  margin-block-start: 3vh;
+
 }
 
-#dcha{
-  text-align: right;
+#list-item{
+  margin-inline: 13vw;
+
 }
 
-#dcha img{
-  height: 45px;
-  width: 45px;
+ul li{
+  font-size: 3vh;
+  color:white
 }
 
-#center{
-  text-align: center;
+.barra-superior{
+  height: auto;
+  width: 9vw;
 }
 
 article {
